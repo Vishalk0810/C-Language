@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-#include<String.h>
+#include<string.h>
  
 void main()
 {
