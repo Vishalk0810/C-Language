@@ -17,7 +17,6 @@ void main()
 	
 	for(i=0; i<5; i++)
 	{
-	    //student details user input
 		printf("Student %d\n",i+1);
 		printf("Enter your roll number : ");
 		scanf("%d",&student[i].rollno);
@@ -39,7 +38,6 @@ void main()
 	printf("\n");
 	for(i=0; i<5; i++)
 	{
-	    //print student details
 		printf(" %s(%d)\n",student[i].name,student[i].rollno);
 		printf("Chemistry : %d\n",student[i].chem_marks);
 		printf("Maths : %d\n",student[i].maths_marks);
