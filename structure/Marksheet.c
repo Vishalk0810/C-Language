@@ -12,8 +12,9 @@ void main()
 {
 	char a[50];
 	struct Student student[5];
-	int i,total;
-	float per;
+	int i;
+ int total;
+	float percentage;
 	
 	for(i=0; i<5; i++)
 	{
@@ -44,8 +45,8 @@ void main()
 		printf("Physics : %d\n",student[i].phy_marks);
 		total = student[i].chem_marks + student[i].maths_marks + student[i].phy_marks;
 		printf("Total : %d/300\n",total);
-		per = (total * 100)/300;
-		printf("Percentage : %.2f\n",per);
+		percentage = (total * 100)/300;
+		printf("Percentage : %.2f\n",percentage);
 		printf("\n");
 	}
 }
